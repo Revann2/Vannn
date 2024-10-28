@@ -1,0 +1,145 @@
+/* Root Variables */
+:root {
+    --primary-color: #333;
+    --secondary-color: #f4f4f4;
+    --highlight-color: #4682B4;
+    --btn-resume: #FFD700;
+    --btn-projects: #FF6347;
+    --btn-contact: #40E0D0;
+    --text-color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle {
+    width: 20px;
+    height: 20px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.job-title {
+    font-weight: normal;
+    color: #777;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-text h1 {
+    font-size: 3em;
+    color: var(--primary-color);
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    color: var(--primary-color);
+    margin: 10px 0;
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+.action-buttons .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume-btn {
+    background-color: var(--btn-resume);
+}
+
+.projects-btn {
+    background-color: var(--btn-projects);
+}
+
+
+footer {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info p,
+.social-links p {
+    margin: 5px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: var(--highlight-color);
+}
+
+.credits {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}

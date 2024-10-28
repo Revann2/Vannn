@@ -1,0 +1,175 @@
+/* Warna tema utama */
+:root {
+    --primary-color: grey; /* Hijau */
+    --secondary-color: #4682B4; /* Biru */
+    --background-color: #F0F8FF; /* Latar belakang terang */
+    --text-color: black;
+    --btn-resume: #FFD700;
+    --btn-projects: #FF6347;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-sizing: border-box;
+}
+
+
+
+
+/* Konten Utama */
+.main-content {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgb(254, 252, 252);
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(8, 147, 206, 0.6);
+    border-radius: 8px;
+}
+
+header {
+    background-color: var(--header-background);
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    color: var(--header-text-color);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: var(--header-text-color);
+}
+
+.header-text p {
+    margin: 5px 0;
+    color: #161616;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: black;
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: black;
+}
+
+section.profile p {
+    background-color:   rgb(119, 117, 117);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.skills ul li {
+    background-color:   rgb(119, 117, 117);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-picture {
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+.action-buttons .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume-btn {
+    background-color: var(--btn-resume);
+}
+
+.projects-btn {
+    background-color: var(--btn-projects);
+}
+
+
+footer {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.header:link {
+    color: #161616;
+    display: flex;
+    align-items: center;
+}
+
